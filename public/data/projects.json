@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "title": "Gradient Website",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corrupti minima repellendus excepturi, delectus illum assumenda saepe, cum veniam reiciendis, repellat aut libero beatae in! Maiores, esse! Nisi, molestiae eligendi!",
+      "phone_img": "gradient_phone.png",
+      "desktop_img": "gradient.png",
+      "badges": ["Swift", "C++", "Java"]
+    },
+    {
+      "title": "AS Roads",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corrupti minima repellendus excepturi, delectus illum assumenda saepe, cum veniam reiciendis, repellat aut libero beatae in! Maiores, esse! Nisi, molestiae eligendi!",
+      "phone_img": "asroads_phone.png",
+      "desktop_img": "asroads.png",
+      "badges": ["Swift", "C++", "Java"]
+    },
+    {
+      "title": "3ktr",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corrupti minima repellendus excepturi, delectus illum assumenda saepe, cum veniam reiciendis, repellat aut libero beatae in! Maiores, esse! Nisi, molestiae eligendi!",
+      "img": "movie.gif",
+      "phone_img": "3ktr_phone.png",
+      "desktop_img": "3ktr.png",
+      "badges": ["Swift", "C++", "Java"]
+    },
+    {
+      "title": "Self Driving Car",
+      "description": "This self-driving car project, implemented in C++ using the SFML graphic library, incorporates neural networks that learn through a Genetic Algorithm. The neural network logic is developed from scratch without relying on external libraries. The system includes a track editor based on Bézier curves, allowing users to manipulate, add, and remove points, with a ability to add tracks",
+      "phone_img": "3ktr_phone.png",
+      "desktop_img": "home_configurator.png",
+      "badges": ["C++", "AI", "Genetic Algorithm"]
+    }
+  ]
+}
