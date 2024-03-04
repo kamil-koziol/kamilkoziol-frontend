@@ -2,32 +2,34 @@
   "projects": [
     {
       "title": "Gradient Website",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corrupti minima repellendus excepturi, delectus illum assumenda saepe, cum veniam reiciendis, repellat aut libero beatae in! Maiores, esse! Nisi, molestiae eligendi!",
+      "description": "The revamped Gradient Website, of which I'm a board member, addresses the shortcomings of its predecessor, which suffered from outdated UI design and was built on older frameworks. By modernizing the interface, I've enhanced user experience and accessibility. ",
       "phone_img": "gradient_phone.png",
       "desktop_img": "gradient.png",
-      "badges": ["Swift", "C++", "Java"]
+      "badges": ["Next.js", "React", "Tailwind", "TypeScript"],
+      "link": "https://gradient.eti.pg.gda.pl/"
     },
     {
-      "title": "AS Roads",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corrupti minima repellendus excepturi, delectus illum assumenda saepe, cum veniam reiciendis, repellat aut libero beatae in! Maiores, esse! Nisi, molestiae eligendi!",
+      "title": "AS Roads Website",
+      "description": "By implementing AS Roads' website with a polished UI/UX and leveraging Strapi for backend services, I've effectively addressed their previous lack of digital presence. Now, the website not only fills the gap but also enhances AS Roads' online visibility, marking a significant step forward in their digital journey.",
       "phone_img": "asroads_phone.png",
       "desktop_img": "asroads.png",
-      "badges": ["Swift", "C++", "Java"]
+      "badges": ["Next.js", "React", "SCSS", "TypeScript"],
+      "link": "https://asroads.org/"
     },
     {
-      "title": "3ktr",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corrupti minima repellendus excepturi, delectus illum assumenda saepe, cum veniam reiciendis, repellat aut libero beatae in! Maiores, esse! Nisi, molestiae eligendi!",
+      "title": "3KTR Website",
+      "description": "I've solved 3KTR Design Studio's issue of not having an online presence and beautifully displayed all their projects, enhancing their visibility and attracting potential clients. This marks a significant stride in their digital journey and strengthens their position in the design industry.",
       "img": "movie.gif",
       "phone_img": "3ktr_phone.png",
       "desktop_img": "3ktr.png",
-      "badges": ["Swift", "C++", "Java"]
+      "badges": ["Next.js", "React", "SCSS", "TypeScript"]
     },
     {
-      "title": "Self Driving Car",
-      "description": "This self-driving car project, implemented in C++ using the SFML graphic library, incorporates neural networks that learn through a Genetic Algorithm. The neural network logic is developed from scratch without relying on external libraries. The system includes a track editor based on Bézier curves, allowing users to manipulate, add, and remove points, with a ability to add tracks",
+      "title": "Home Configurator",
+      "description": "The Home Configurator, tailored for 3KTR, facilitates seamless transition between Unreal Engine and the web platform, enabling users to customize products with ease with automatic price calculation. By integrating these environments, customers can experience a fluid interaction while configuring their designs, enhancing engagement and satisfaction.",
       "phone_img": "3ktr_phone.png",
       "desktop_img": "home_configurator.png",
-      "badges": ["C++", "AI", "Genetic Algorithm"]
+      "badges": ["Next.js", "SCSS", "TypeScript"] 
     }
   ]
 }

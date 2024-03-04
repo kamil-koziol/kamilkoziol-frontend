@@ -1,7 +1,7 @@
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="bg-dark">
+    <div className="bg-dark" id="about">
       <div className="container flex gap-12 justify-center w-full h-full align-middle min-h-[600px]">
         <div className="flex flex-col flex-1 justify-center">
           <h1 className="mb-4 text-5xl font-bold text-neutral-100">About me</h1>
@@ -22,7 +22,7 @@ const About = () => {
         </div>
         <div className="relative w-2/5">
           <Image
-            src="/me.jpeg"
+            src="/assets/placeholder.svg"
             alt="me"
             fill
             className="object-cover rounded-xl shadow-md"
