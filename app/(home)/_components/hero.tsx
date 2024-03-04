@@ -71,10 +71,10 @@ export const Hero: React.FC<HeroProps> = ({ className }) => {
           </div>
 
           <div className="flex gap-3">
-            <Button size={"lg"}>PROJECTS {">"}</Button>
-            <Button size={"lg"} variant={"secondary"} className="font-semibold">
+            <a href="#projects"><Button size={"lg"}>PROJECTS {">"}</Button></a>
+            <a href="#contact"><Button size={"lg"} variant={"secondary"} className="font-semibold">
               CONTACT
-            </Button>
+            </Button></a>
           </div>
         </div>
       </div>

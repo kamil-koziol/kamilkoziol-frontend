@@ -56,6 +56,7 @@ const ProjectShowcase = ({
           {seeMoreLink && <Link
             className="md:text-md text- w-32 text-xl hover:underline"
             href={seeMoreLink}
+            target="_blank"
           >
             <Button className="mb-12 mt-8">See more {">"}</Button>
           </Link>}
