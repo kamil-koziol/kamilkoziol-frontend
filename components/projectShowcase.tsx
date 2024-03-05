@@ -58,11 +58,11 @@ const ProjectShowcase = ({
             href={seeMoreLink}
             target="_blank"
           >
-            <Button className="mb-12 mt-8">See more {">"}</Button>
+            <Button className="mt-8">See more {">"}</Button>
           </Link>}
         </div>
 
-        <div className="relative z-10 h-full md:min-h-[500px] min-h-[300px] md:w-1/2 w-full md:mt-0">
+        <div className="relative z-10 h-full md:min-h-[500px] min-h-[300px] md:w-1/2 w-full md:mt-0 mt-12">
           <Image
             src={projects_path + project.desktop_img}
             alt="desktop"

@@ -38,7 +38,7 @@ export const Hero: React.FC<HeroProps> = ({ className }) => {
       <div className="flex flex-col items-center container p-6 md:p-24">
         <div className="max-w-screen-md">
           <div className="relative md:mb-12 mb-8">
-            <div className="absolute left-[-60px] top-[-25px] z-0 h-12 w-64 bg-primary/30"></div>
+            <div className="absolute left-[-60px] top-[-25px] z-0 h-12 w-64 bg-primary/30 hidden md:block"></div>
             <h2 className="absolute z-10 md:text-5xl text-2xl font-bold text-neutral-300">
               HI, MY NAME IS
             </h2>
