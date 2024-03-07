@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
 
-interface FooterProps extends React.HTMLProps<HTMLDivElement> {}
+interface FooterProps extends React.HTMLProps<HTMLDivElement> { }
 const Footer: React.FC<FooterProps> = ({ className }) => {
   return (
     <div className={cn("flex flex-col bg-dark", className)} id="contact">
@@ -30,9 +30,14 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
                 );
               },
             )}
-            {/* <Button variant={"link"} className="p-0 text-xl text-neutral-200">
-              CV
-            </Button> */}
+            <Link href={"/cv.pdf"}>
+              <Button
+                variant={"link"}
+                className="p-0 text-xl text-neutral-200"
+              >
+                {"CV"}
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
