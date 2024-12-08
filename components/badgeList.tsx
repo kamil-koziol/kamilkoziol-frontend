@@ -2,8 +2,8 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import { Badge } from "./ui/badge";
 
-import { ProjectCategoriesColors } from "@/app/data/model/project";
 import { getContrastColor } from "@/lib/colors";
+import { ProjectCategoriesColors } from "@/lib/data/model/project";
 
 interface BadgeListProps extends React.ComponentPropsWithoutRef<"div"> {
   badges: string[];
@@ -14,7 +14,7 @@ const BadgeList = ({ className, badges }: BadgeListProps) => {
     <div className={cn("flex flex-wrap gap-2 py-4", className)}>
       {badges.map((badge, idx) => {
         let backgroundColor = ProjectCategoriesColors[badge] || "#fff";
-        backgroundColor = "#6E70D2"
+        backgroundColor = "#6E70D2";
 
         return (
           <Badge

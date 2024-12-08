@@ -1,10 +1,10 @@
-import { Project } from "@/app/data/model/project";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
+import { Project } from "@/lib/data/model/project";
 
 interface ProjectShowcaseProps extends React.ComponentPropsWithoutRef<"div"> {
   project: Project;
